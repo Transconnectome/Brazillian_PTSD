@@ -6,8 +6,8 @@ Before running the code **case subjects and control subjects must be listed in d
 
 ```bash
 DATA
-+-- SUBJECT
-|   +-- DICOM
+|-- SUBJECT
+    |-- DICOM
 
 ```
 
@@ -15,11 +15,11 @@ DATA
 
 ```bash
 DATA
-+-- CASE
-|   +-- anat
-|   +-- dwi
-+-- CONTROL
-|   +-- anat
-|   +-- dwi
+|-- CASE
+    |-- anat
+    |-- dwi
+|-- CONTROL
+    |-- anat
+    |-- dwi
 
 ```
