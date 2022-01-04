@@ -1,5 +1,5 @@
 #!bin/bash
-dir="/Users/apple/Desktop/MRI/CASE"
+dir="/Users/apple/Desktop/MRI/CONTROL"
 
 
 
