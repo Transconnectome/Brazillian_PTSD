@@ -1,5 +1,6 @@
 # Description of Codes
-Base directory of bash script is **case subjects** and **control subjects**.
+These codes contain processes of **DICOM -> NIFTI** and **NIFTI -> BIDS format**.   
+Base directory of bash script is **case subjects** and **control subjects**.  
 Before running the code **case subjects and control subjects must be listed in different folders**. 
 
 # File Structure of Original Data
