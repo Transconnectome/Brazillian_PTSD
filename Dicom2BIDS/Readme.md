@@ -4,22 +4,22 @@ Before running the code **case subjects and control subjects must be listed in d
 
 # File Structure of Original Data
 
-```bash
-DATA
-|-- SUBJECT
+```
+|--DATA
+    |-- SUBJECT
     |-- DICOM
 
 ```
 
 # File Structure of Transformed BIDS Data
 
-```bash
-DATA
-|-- CASE
-    |-- anat
-    |-- dwi
-|-- CONTROL
-    |-- anat
-    |-- dwi
+```
+|--DATA
+    |-- CASE
+        |-- anat
+        |-- dwi
+    |-- CONTROL
+        |-- anat
+        |-- dwi
 
 ```
