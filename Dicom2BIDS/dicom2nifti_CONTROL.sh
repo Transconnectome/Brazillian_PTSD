@@ -35,12 +35,12 @@ do
     #3D_T1이 이름에 들어가 있는 파일들은 3D_T1 문자열을 T1w로 바꾸고 anat 폴더에 넣어준다. 원래 파일들은 지워준다.
     if [[ "${files}" == *"3D_T1"* ]] && [[ "${files}" == *".json"* ]]
     then
-        mv $files "${sub}/anat/sub-${sub_idx}_t1w.json"
+        mv $files "${sub}/anat/sub-${sub_idx}_T1w.json"
         rm $files
 
     elif [[ "${files}" == *"3D_T1"* ]] && [[ "${files}" == *".nii.gz"* ]]
     then
-        mv $files "${sub}/anat/sub-${sub_idx}_t1w.nii.gz"
+        mv $files "${sub}/anat/sub-${sub_idx}_T1w.nii.gz"
         rm $files
 
     #DTI가 이름에 들어가 있는 파일들은 DTI 문자열을 dwi로 바꾸고 dwi 폴더에 넣어준다.
